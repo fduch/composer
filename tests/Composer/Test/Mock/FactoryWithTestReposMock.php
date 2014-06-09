@@ -13,8 +13,7 @@ class FactoryWithTestReposMock extends FactoryMock{
         $config->merge(array(
             'config' => array('home' => sys_get_temp_dir().'/composer-test'),
             'repositories' => array(
-                'test_com' => array('type' => 'composer', 'url' => 'http://test'),
-                'packagist' => false
+                'test_com' => array('type' => 'composer', 'url' => 'http://test')
             )
         ));
 
