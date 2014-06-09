@@ -1,0 +1,14 @@
+{
+  "packages": {
+    "liip\/monitor-bundle": {
+      "0.4.0": {
+        "name": "liip\/monitor-bundle",
+        "version": "0.4.0",
+        "require": {
+          "symfony\/framework-bundle": ">2.0,<2.2-dev"
+        },
+        "uid": 202
+      }
+    }
+  }
+}

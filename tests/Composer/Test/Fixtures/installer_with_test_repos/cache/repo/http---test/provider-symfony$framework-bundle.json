@@ -1,0 +1,29 @@
+{
+   "packages":{
+       "symfony\/symfony": {
+           "dev-bugfix_for_2.0.17": {
+               "name": "symfony\/symfony",
+               "version": "dev-bugfix_for_2.0.17",
+               "replace": {
+                   "symfony\/framework-bundle": "self.version"
+               },
+               "uid": 36
+           },
+           "v2.0.17": {
+               "name": "symfony\/symfony",
+               "version": "v2.0.17",
+               "replace": {
+                   "symfony\/framework-bundle": "self.version"
+               },
+               "uid": 46
+           }
+       },
+       "symfony\/framework-bundle": {
+           "v2.0.17": {
+               "name": "framework-bundle",
+               "version": "v2.0.17",
+               "uid": 2246
+           }
+       }
+   }
+}
