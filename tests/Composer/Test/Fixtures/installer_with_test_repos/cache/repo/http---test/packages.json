@@ -1,0 +1,14 @@
+{
+  "packages": [
+    
+  ],
+  "notify": "\/downloads\/%package%",
+  "notify-batch": "\/downloads\/",
+  "providers-url": "\/p\/%package%$%hash%.json",
+  "search": "\/search.json?q=%query%",
+  "provider-includes": {
+    "p\/provider-active$%hash%.json": {
+      "sha256": "f64f479acce5a07f9dd341e4ce804e9c8be74abf45895a4eaac676a94d85e687"
+    }
+  }
+}

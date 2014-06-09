@@ -1,0 +1,15 @@
+--TEST--
+Aliased package from another repo with replaced package should work correct in case of requiring package required one of replaced packages
+--COMPOSER--
+{
+    "require": {
+        "liip/monitor-bundle": "0.4.0",
+        "symfony/symfony": "dev-bugfix_for_2.0.17 as 2.0.17"
+    }
+}
+--RUN--
+install
+--EXPECT--
+Installing symfony/symfony (dev-bugfix_for_2.0.17)
+Marking symfony/symfony (2.0.17) as installed, alias of symfony/symfony (dev-bugfix_for_2.0.17)
+Installing liip/monitor-bundle (0.4.0)

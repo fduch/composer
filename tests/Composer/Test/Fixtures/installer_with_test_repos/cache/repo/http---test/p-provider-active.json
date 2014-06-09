@@ -1,0 +1,13 @@
+{
+  "providers": {
+    "liip\/monitor-bundle": {
+      "sha256": "cd264ed7d1c09826a67778cae626b383e14296bf548bae89dd93001ea49f59c7"
+    },
+    "symfony\/framework-bundle": {
+      "sha256": "902ec90c6b3df4849bd168062b00ba2485a6eebd4e380a16dea9066d9556ab3b"
+    },
+    "symfony\/symfony": {
+      "sha256": "18d35ad7edd05c5e595d1c8921f693d6ffd072a05beaaad973562377af381fd2"
+    }
+  }
+}
